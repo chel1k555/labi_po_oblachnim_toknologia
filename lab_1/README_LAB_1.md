@@ -36,10 +36,19 @@
 ```python
     server {
         listen 80;
-        server_name localhost;
+        server_name pet1.local;
 
         location / {
             return 301 https://pet1.local$request_uri;
+        }
+    }
+
+    server {
+        listen 80;
+        server_name pet2.local;
+        
+        location / {
+            return 301 https://pet2.local$request_uri;
         }
     }
 ```  
@@ -87,6 +96,9 @@ openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout pet_p2.key -out pet
 ![фото](./images/adin_no_adin.png)  
 
 
+![фото](./images/adin_no_adin1.png)  
+
+
 #### Сначала не совсем хоба, так как сертификаты подписанны не официальными всемирно признанными компаниями, а лично мной, а значит это не безопасно. Браузер естественно жалуется, но дает доступ с предупреждением так и так, опасность. Мы все понимаем и принимаем, я же не буду сам себя обманывать. 
 ![фото](./images/opasnost.png) 
 
@@ -102,4 +114,15 @@ openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout pet_p2.key -out pet
 ![фото](./images/adin_a.png)  
 
 
-![фото](./images/adin_no_a.png)  
+![фото](./images/adin_a1.png)  
+
+
+![фото](./images/opasnost2.png)
+
+
+#### Также принимаем все и вот что выходит
+
+
+![фото](./images/adin_a2.png)  
+
+
