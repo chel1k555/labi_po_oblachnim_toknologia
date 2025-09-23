@@ -91,10 +91,15 @@ openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout pet_p2.key -out pet
 ![фото](./images/opasnost.png) 
 
 
-#### Принимаем все условия
+#### Принимаем все условия и все работает!!!!!!!!!!!!!!!!! Ура
 
 
 ![фото](./images/adin_adin.png)  
 
 
 ### Второй
+#### Проверяем второй
+![фото](./images/adin_a.png)  
+
+
+![фото](./images/adin_no_a.png)  
