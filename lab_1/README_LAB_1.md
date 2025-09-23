@@ -126,7 +126,7 @@ openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout pet_p2.key -out pet
 ![фото](./images/adin_a2.png)  
 
 
-#### Далее создаем название псевдонима /secretnost/ для реальной папки /secret/ через alias
+#### Далее создаем псевдоним /secretnost/ для реальной папки /secret/ через alias
 ```python
         location /secretnost/ {
             alias C:/Users/sanya_yomae/nginx-1.28.0/secret/;
