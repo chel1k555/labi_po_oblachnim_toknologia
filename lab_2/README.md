@@ -103,6 +103,8 @@ ENTRYPOINT ["./app"]
 **ПЛОХОЙ**
 ![photo](./images/doc22.png)
 ![photo](./images/doc1.png)
+
+
 **ХОРОШИЙ**
 ![photo](./images/doc44.png)
 ![photo](./images/doc1.png)
