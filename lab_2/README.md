@@ -27,7 +27,7 @@ int main() {
     arr.push_back(a - b);
     arr.push_back(a);
 
-    for (int i = 0; i < arr.size(); ++i) {
+    for (int i = 0; i < 4; ++i) {
         std::cout << "result - " << arr[i] << '\n';
     }
     
@@ -40,4 +40,25 @@ int main() {
 ~~только преподавателю не говорите😉:~~
 <img src="./images/chshsh.jpg" alt="photo" width="100"/>
 
+Вот такой получился у меня докерфайл
+```
+FROM ubuntu:latest
+WORKDIR /app
+COPY main.cpp .
+RUN apt-get update && apt-get install g++ 
+RUN g++ main.cpp -o app
+ENTRYPOINT ["./app"]
+```
 
+Я хотел изначально установить Docker desktop, но раз десять не получалось и все это шло ооооооочень медленно. Поэтому я использовал сайт play with docker.
+Там ввел такие команды:
+```
+mkdir app
+cd app
+nano main.cpp
+nano Dockerfile
+docker build -t cpp-test .
+docker run cpp-test
+```
+После чего получил вот это:
+![photo](./images/doc1.png)
