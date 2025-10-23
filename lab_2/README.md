@@ -134,4 +134,4 @@ docker run -d --memory="512m" --cpus="1" myapp -> :)
 
 
 
-<img src="./images/shrek_is_love_shrek_is_life.jpg" alt="photo" width="350"/>
+<img src="./images/shrek_is_love_shrek_is_life.jpg" alt="photo" width="1000"/>
