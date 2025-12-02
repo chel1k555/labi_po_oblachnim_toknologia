@@ -7,6 +7,8 @@ For bad and good practicies, i will use habr.com and official documentation from
 # MIDDLE
 
 Now i make a file with python, for showing that my ci/cd work.
+
+
 python_aaaaaa_ilove_python_tomuch.py
 
 ```
