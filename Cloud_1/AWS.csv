@@ -1,0 +1,45 @@
+IT Tower;Service Family;Service Type;Service Sub Type;Service Usage Type;Product Code;Usage Type; [lineItem/Operation];lineItem/LineItemDescription
+Support;Support;APN Fee;Additional Costs;Tax;APNFee;;;Tax%
+Support;Support;APN Fee;Fee;;APNFee;;;
+Cloud Services;Application Services;Amazon App Stream;Additional Costs;Tax;AmazonAppStream;;;Tax%
+Cloud Services;Application Services;Amazon App Stream;Streaming;Streaming Usage;AmazonAppStream;%stream%;;
+Cloud Services;Application Services;Amazon App Stream;Maintenance;Stopped Instance;AmazonAppStream;%StoppedInstance%;;
+Cloud Services;Application Services;Amazon App Stream;User Fee;Windows User License;AmazonAppStream;%Win-User;;
+Cloud Services;Analytics;Amazon Athena;Query;Data Scanned;AmazonAthena;%DataScanned%;;
+Cloud Services;Analytics;Amazon Athena;Request;Tier 1;AmazonAthena;%Requests-Tier1;;
+Cloud Services;Storage&Content Delivery;Amazon Cloud Directory;Create Directory;Tier 2;AmazonCloudDirectory;%Requests-Tier1;CreateDirectory;
+Cloud Services;Storage&Content Delivery;Amazon Cloud Directory;Request;Tier 3;AmazonCloudDirectory;%Requests-Tier2;;
+Database;Database;Amazon Doсuments DataBase;Additional Costs;Tax;AmazonDocDB;;;Tax%
+Database;Database;Amazon Doсuments DataBase;Usage;Instance Usage;AmazonDocDB;%InstanceUsage:%;;
+Database;Database;Amazon Doсuments DataBase;Storage;IO Usage;AmazonDocDB;%StorageIOUsage;;
+Database;Database;Amazon Doсuments DataBase;Storage;Storage Usage;AmazonDocDB;%StorageUsage;;
+Database;Database;Amazon Doсuments DataBase;Backup;Backup Usage;AmazonDocDB;%BackupUsage;;
+Compute;Compute;Amazon Elastic Interface;Additional Costs;Tax;AmazonEI;;;Tax%
+Compute;Compute;Amazon Elastic Interface;Inference Accelerator;eia1 Usage;AmazonEI;%eia1%;;
+Compute;Compute;Amazon Elastic Interface;Inference Accelerator;eia2 Usage;AmazonEI;%eia2%;;
+Cloud Services;Internet of Things;AWS IoT Core;Messaging;Messages;AWSIoT;%Messages;;
+Cloud Services;Internet of Things;AWS IoT Core;Management;Registry Operations;AWSIoT;%RegistryAndShadowOperations;;
+Cloud Services;Internet of Things;AWS IoT Core;Connectivity;Connection Minutes;AWSIoT;%ConnectionMinutes;;
+Cloud Services;Internet of Things;AWS IoT Core;Protocol;MQTT;AWSIoT;%MQTT;;
+Cloud Services;Internet of Things;AWS IoT Device Management;Fleet Management;Indexed Data;IoTDeviceManagement;%IndexedData;;
+Cloud Services;Developer Tools;AWS Code Pipeline;Additional Costs;Tax;AWSCodePipeline;;;Tax%
+Cloud Services;Developer Tools;AWS Code Pipeline;Pipelines;Trial Pipeline;AWSCodePipeline;%trialPipeline%;;
+Cloud Services;Developer Tools;AWS Code Pipeline;Pipelines;Active Pipeline;AWSCodePipeline;%activePipeline%;;
+Cloud Services;Management Tools;AWS X-Ray;Additional Costs;Tax;AWSXRay;;;Tax%
+Cloud Services;Management Tools;AWS X-Ray;Analysis;X-Ray;AWSXRay;%XRay%;;
+Cloud Services;Developer Tools;Amazon CodeBuild;Build Services;Build Execution;CodeBuild;;;
+Cloud Services;Artificial Intelligence;Amazon Machine Learning;Statistics;Data Stats;AmazonML;%AMLBoxUsage;DataStats;
+Cloud Services;Artificial Intelligence;Amazon Machine Learning;Prediction;Batch Prediction Chunk;AmazonML;%BatchPredictionChunk;;
+Cloud Services;Artificial Intelligence;Amazon Machine Learning;Training;Train Model;AmazonML;%AMLBoxUsage;TrainModel;
+Cloud Services;Artificial Intelligence;Amazon Machine Learning;Evaluation;Evaluate Model;AmazonML;%AMLBoxUsage;EvaluateModel;
+Cloud Services;Artificial Intelligence;Amazon Polly;Speech Synthesis;Text to speech;AmazonPolly;;;
+Cloud Services;Artificial Intelligence;Amazon Personalize;Additional Costs;Tax;AmazonPersonalize;;;Tax%
+Cloud Services;Artificial Intelligence;Amazon Personalize;TPS;Hours;AmazonPersonalize;%TPS-hours;;
+Cloud Services;Artificial Intelligence;Amazon Personalize;ML model;Training Hour;AmazonPersonalize;%TrainingHour;;
+Cloud Services;Artificial Intelligence;Amazon Personalize;ML model;Data Ingestion;AmazonPersonalize;%DataIngestion;;
+Cloud Services;Internet of Things;Amazon Rekognition;Computer Vision;Image/Video Analysis;AmazonRekognition;;;
+Storage;Storage&Content Delivery;Amazon Elastic Compute Cloud;EBS Storage;Volume I/O;AmazonEC2;%EBS:VolumeIOUsage%;;
+Storage;Storage&Content Delivery;Amazon Elastic Compute Cloud;EBS Storage;Volume Usage;AmazonEC2;%EBS:VolumeUsage%;;
+Storage;Storage&Content Delivery;Amazon Elastic Compute Cloud;Snapshots;Snapshot Usage;AmazonEC2;%EBS:SnapshotUsage;;
+Storage;Storage&Content Delivery;Amazon Elastic Compute Cloud;Snapshots;Under Billing;AmazonEC2;%EBS:SnapshotUsageUnderBilling;;
+Storage;Storage&Content Delivery;Amazon Elastic Compute Cloud;EBS Storage;Provisioned IOPS;AmazonEC2;%EBS:VolumeP-IOPS.piops%;;
