@@ -7,8 +7,8 @@ Cloud Services;Application Services;Amazon App Stream;Maintenance;Stopped Instan
 Cloud Services;Application Services;Amazon App Stream;User Fee;Windows User License;AmazonAppStream;%Win-User;;
 Cloud Services;Analytics;Amazon Athena;Query;Data Scanned;AmazonAthena;%DataScanned%;;
 Cloud Services;Analytics;Amazon Athena;Request;Tier 1;AmazonAthena;%Requests-Tier1;;
-Cloud Services;Storage&Content Delivery;Amazon Cloud Directory;Create Directory;Tier 2;AmazonCloudDirectory;%Requests-Tier1;CreateDirectory;
-Cloud Services;Storage&Content Delivery;Amazon Cloud Directory;Request;Tier 3;AmazonCloudDirectory;%Requests-Tier2;;
+Cloud Services;Storage&Content Delivery;Amazon Cloud Directory;Create Directory;Tier 2;AmazonCloudDirectory;%Requests-Tier2;CreateDirectory;
+Cloud Services;Storage&Content Delivery;Amazon Cloud Directory;Request;Tier 3;AmazonCloudDirectory;%Requests-Tier3;;
 Database;Database;Amazon Doсuments DataBase;Additional Costs;Tax;AmazonDocDB;;;Tax%
 Database;Database;Amazon Doсuments DataBase;Usage;Instance Usage;AmazonDocDB;%InstanceUsage:%;;
 Database;Database;Amazon Doсuments DataBase;Storage;IO Usage;AmazonDocDB;%StorageIOUsage;;
