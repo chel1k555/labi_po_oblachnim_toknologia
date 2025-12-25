@@ -1,0 +1,38 @@
+Column1;Column2;Column3;Column4;Column5;Column6;Column7;Column8;Column9
+IT Tower;Service Family;Service Type;Service Sub Type;Service Usage Type;Meter Category;Meter Sub-Category;Meter Name;Consumed Service
+Storage;Storage&Content Delivery;Data Storage;Geo Replicated Storage;Data Transfer;Data Management;;Geo-Replicated Data Transfer%;
+Storage;Storage&Content Delivery;Data Storage;Geo Redundant;Data Transfer;Data Management;Geo Redundant;;
+Storage;Storage&Content Delivery;Data Storage;Geo Redundant;Data Transfer;Data Management;;;
+Cloud Services;Artificial Intelligence;Machine Learning;ML studio;API Usage;Machine Learning Studio;Production Web API;;Microsoft.MachineLearning
+Cloud Services;Management Tools;Secure Access;Bastion Host;Instance Usage;Azure Bastion;;Basic;Microsoft.Network
+Cloud Services;Management Tools;Secure Access;Bastion Host;Data Transfer;Azure Bastion;;Data Transfer%;Microsoft.Network
+Cloud Services;Developer Tools;API Management;API Gateway;Service Tier Usage;API Management;API Management;Developer;Microsoft.ApiManagement
+Cloud Services;Developer Tools;API Management;API Gateway;Service Tier Usage;API Management;API Management;Standard;Microsoft.ApiManagement
+Cloud Services;Developer Tools;API Management;API Gateway;Service Tier Usage;API Management;API Management;Basic;Microsoft.ApiManagement
+Cloud Services;Developer Tools;API Management;API Gateway;Service Tier Usage;API Management;API Management;Premium;Microsoft.ApiManagement
+Cloud Services;Developer Tools;API Management;API Gateway;API Calls;API Management;;Consumption Calls;Microsoft.ApiManagement
+Cloud Services;Developer Tools;API Management;API Gateway;Capacity Units;API Management;;Basic Units;Microsoft.ApiManagement
+Cloud Services;Developer Tools;API Management;API Gateway;Capacity Units;API Management;;Developer Units;Microsoft.ApiManagement
+Cloud Services;Developer Tools;API Management;API Gateway;Capacity Units;API Management;;Premium Units;Microsoft.ApiManagement
+Cloud Services;Developer Tools;API Management;API Gateway;Capacity Units;API Management;;Standard Units;Microsoft.ApiManagement
+Cloud Services;Management Tools;Monitoring;Alerts;Webhook Notifications;Azure Monitor;Notifications;Webhook;microsoft.insights
+Cloud Services;Management Tools;Monitoring;Alerts;Email Notifications;Azure Monitor;Notifications;Email;microsoft.insights
+Storage;Storage&Content Delivery;Backup;Standart IO;Block Blob Backup;Backup;Geo Redundant Storage;Standard IO - Block Blob (GB);Microsoft.RecoveryServices
+Storage;Storage&Content Delivery;Backup;Geo Redundant Backup;Data Stored;Backup;;GRS Data Stored;Microsoft.RecoveryServices
+Storage;Storage&Content Delivery;Backup;Virtual Machine Backup;Protected Instances;Backup;;%Azure VM%Protected Instances;Microsoft.RecoveryServices
+Cloud Services;Analytics;Data Integration;Data Factory;Compute Hours;Business Analytics;;Compute Hours;Microsoft.HDInsight
+Cloud Services;Analytics;Data Integration;Data Factory;Data Movement;Business Analytics;Data Factory;Data Movement Cloud;Microsoft.DataFactory
+Cloud Services;Analytics;Data Integration;Data Factory;Data Movement;Business Analytics;Data Factory;Data Movement On Premises;Microsoft.DataFactory
+Cloud Services;Analytics;Data Integration;Data Factory;PipeLine Activity;Business Analytics;Data Factory;High Frequency Cloud Activity;Microsoft.DataFactory
+Cloud Services;Analytics;Data Integration;Data Factory;PipeLine Activity;Business Analytics;Data Factory;High Frequency On Premises  Activity;Microsoft.DataFactory
+Cloud Services;Analytics;Data Integration;Data Factory;PipeLine Activity;Business Analytics;Data Factory;Low Frequency On Premises  Activity;Microsoft.DataFactory
+Cloud Services;Analytics;Data Integration;Data Factory;PipeLine Activity;Business Analytics;Data Factory;Low Frequency Cloud Activity;Microsoft.DataFactory
+Storage;Storage&Content Delivery;Data Lake;Object Storage;Data Stored;Business Analytics;Data Lake Store;Data at Rest (GB);Microsoft.DataLakeStore
+Storage;Storage&Content Delivery;Data Lake;Object Storage;Transactions;Business Analytics;Data Lake Store;Transactions%;Microsoft.DataLakeStore
+;;;;;Virtual Machines Licenses;;;
+Compute;Compute;Virtual Machines;Red Hat Enterprise Linux;Compute Hours;Virtual Machines;Red Hat Enterprise Linux%;Compute Hours;%Compute
+Compute;Compute;Virtual Machines;SQL Serve;Compute Hours;Virtual Machines;SQL Server%;Compute Hours;
+Compute;Compute;Virtual Machines;BizTalk Server;Compute Hours;Virtual Machines;BizTalk Server;Compute Hours;%Compute
+Compute;Compute;Virtual Machines;BizTalk Server Standard;Compute Hours;Virtual Machines;BizTalk Server Standard%;Compute Hours;%Compute
+Compute;Compute;Virtual Machines;Java Development Environment;Compute Hours;Virtual Machines;Java Development Environment%;Compute Hours;Unassigned
+Compute;Compute;Virtual Machines;Reservation;Compute Hours;Virtual Machines;Reservation%;Compute Hours;%Compute
