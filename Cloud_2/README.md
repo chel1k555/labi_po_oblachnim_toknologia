@@ -5,4 +5,23 @@
 
 Я выбрал файл Azure_lab_team_2, потому что умножил фамилию на имя, прибавил номер файла с прошлой лабы и разделил все это на 30 и получил 2.26666.
 
+В ходе работы билинги были сопоставлены и записаны в виде IT Tower|Service Family|Service Type|Service Sub Type|Service Usage Type и также были использованы 
+IT Tower
+Cloud Services
+Support
+Compute
+Storage
+DataBasw
+
+Service Family
+Application Services
+Internet of things
+Analytics
+DataBase
+Management Tools
+Support
+Storage&Content Delivery
+Developer Tools
+Artificial Intelligence
+и тд.
 
